@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+@tailwind base;
+
+body {
+  @apply bg-slate-50 text-slate-700;
+  @apply dark:bg-slate-900 dark:text-slate-200;
+  font-family: 'Kanit', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+h4 {
+  @apply text-base;
+}
+
+h5 {
+  @apply text-sm;
+}
+
+h6 {
+  @apply text-xs;
+}
+
+@tailwind components;
+@tailwind utilities;
